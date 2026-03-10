@@ -16,6 +16,7 @@
 
 ```
 alter system set track_activity_query_size to 1048576;
+select pg_reload_conf();
 ```
 
 Затем перезагрузить кластер PostgreSQL.
