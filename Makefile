@@ -1,5 +1,5 @@
 EXTENSION=pg_ddl_history
-DATA=pg_ddl_history--1.0.sql pg_ddl_history--1.0--1.1.sql pg_ddl_history--1.1--1.2.sql pg_ddl_history--1.2--1.3.sql
+DATA=pg_ddl_history--1.0.sql pg_ddl_history--1.0--1.1.sql pg_ddl_history--1.1--1.2.sql pg_ddl_history--1.2--1.3.sql pg_ddl_history--1.3--1.4.sql
 PG_CONFIG=pg_config
 PGXS:=$(shell $(PG_CONFIG) --pgxs)
 include $(PGXS)
